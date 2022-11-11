@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital@1&family=Inter:wght@400;500;600&display=swap");
+* {
+  
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+
+ 
+
+
+}/*# sourceMappingURL=main.css.map */
+
+.StartingHeader{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: space-around;
+font-style: normal;
+text-align: left;
+}
+
+.StartingIntroP{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+}
+
+.StartingIntroH1{
+font-family: 'Inter';
+font-style: normal;
+font-size: 64px;
+}
+
+.aboutme{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: space-around;
+font-style: normal;
+text-align: left;
+align-items: center;
+}
+
+.abouth2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+text-align: center;
+text-decoration: underline;
+}
+
+.aboutImg{
+  width: 300px;
+  height: 313px;
+  border: 2px solid black;
+ 
+}
+
+.Tech{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+}
+
+
+.Footer{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: stretch;
+  background-color: aquamarine;
+
+}
+
+.Projects{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: space-around;
+font-style: normal;
+text-align: left;
+align-items: baseline;
+}
+
+
+.ProjectsH4 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+align-items: center;
+}
+
+.Projectsp1{
+display: flex;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+}
