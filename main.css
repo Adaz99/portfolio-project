@@ -369,7 +369,19 @@ nav {
   .Email {
     text-align: center;
   }
-  .FooterImg {
-    align-items: flex-end;
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  footer div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  footer div .imgCv {
+    height: 41px;
+    width: 42px;
   }
 }/*# sourceMappingURL=main.css.map */

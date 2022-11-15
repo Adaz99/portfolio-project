@@ -365,9 +365,27 @@ align-content : space-around;
 }
 
 
-.FooterImg{
-  align-items: flex-end;
+// .FooterImg{
+//   align-items: flex-end;
+// }
+
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  div {
+    display: flex;
+    justify-content: flex-end;
+    .imgCv {
+      height: 41px;
+      width: 42px;
+
+    }
+  }
 }
+
 
 }
 
