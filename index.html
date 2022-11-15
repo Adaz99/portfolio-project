@@ -8,26 +8,27 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <header class="navBar">
+  
+  <div class="navBar">
   <nav>
-    <a href="home1">Home</a>
-    <a href="about1">About</a>
-    <a href="projects1">Projects</a>
-    <a><button>Contact</button></a>
+    <a href="flex-items">Home</a>
+    <a href="flex-items">About</a>
+    <a href="flex-items">Projects</a>
+    <button class="navButton">Contact</button></a>
   </nav>
-</header>
+</div>
 
 <main>
-<section>
+<section id="Starting">
     <div class="StartingHeader">
-    <h1 >Hello! I'm Airidas Sienauskas </h1>
-    <h2 >A Junior Cloud ☁️ Engineer based in London.</h2>
+    <p class="StartingIntroP">Hello! I'm Airidas Sienauskas </p>
+    <h1 class="StartingIntroH1">A Junior Cloud ☁️ Engineer based in London.</h1>
     </div> 
   </section>
 
 
  <section class="aboutme">
-    <h3 class="abouth2">About Me</h3>
+    <h2 class="aboutmeh2">About Me</h2>
     <img class="aboutImg" src="./Images/IMG_E5088.JPG" alt="">
     <p class="aboutP">Nulla ac praesent tempor, orci sit nunc eget. 
       Aliquam urna nunc, viverra sed tortor non. Id at pellentesque mauris at tincidunt venenatis urna mus. 
@@ -38,51 +39,162 @@
       At neque tellus convallis urna, sodales neque. In enim auctor diam nunc duis rutrum adipiscing pellentesque eu. 
       In sollicitudin neque dictum neque proin pretium ante. Ac bibendum vestibulum ullamcorper pellentesque scelerisque. 
       Neque senectus eu dictum ultricies tellus nisl eget sem libero. Eu sit quis vestibulum donec cras elementum.</p>
-    
-      <h4 class="Tech">Technical Skills</h4>
-    <p>Maecenas accumsan tincidunt id et in ut diam sit.
+    </section>
+
+    <section class="TechSkills">
+      <h3 class="TechH3">Technical Skills</h3>
+    <p class="TechP">Maecenas accumsan tincidunt id et in ut diam sit.
         Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.
     </p>
     <div class="Techimages">
-    <img src="./Images/Vector.png" alt="">
-    <img src="./Images/Vector (1).png" alt="">
-    <img src="./Images/Vector (2).png" alt="">
-    <img src="./Images/Vector (3).png" alt="">
-    <img src="./Images/Vector (4).png" alt="">
-    <img src="./Images/Vector (5).png" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <div>
-  </section>
+      <div class="Techimages__grid1">
+    <img class="Techimages__pic" src="./Images/Vector.png" alt="">
+    <p>Spring Boot</p>
+      </div>
+
+
+      <div class="Techimages__grid2">
+      <img class="Techimages__pic" src="./Images/Vector (1).png" alt="">
+      <p>Java</p>
+      </div>
+
+
+      <div class="Techimages__grid3">
+      <img class="Techimages__pic" src="./Images/Vector (2).png" alt="">
+      <p>React</p>
+      </div>
+
+
+      <div class="Techimages__grid4">
+      <img class="Techimages__pic" src="./Images/Vector (3).png" alt="">
+      <p>BEM</p>
+      </div>
+
+
+      <div class="Techimages__grid5">
+      <img class="Techimages__pic" src="./Images/Vector (4).png" alt="">
+       <p>SCSS</p>
+      </div>
+
+
+      <div class="Techimages__grid6">
+      <img class="Techimages__pic" src="./Images/Vector (5).png" alt="">
+      <p>JavaScript</p>
+      </div>
+
+
+      <div class="Techimages__grid7">
+      <img class="Techimages__pic" src="./Images/Vector (6).png" alt="">
+      <p>CSS3</p>
+      </div>
+
+
+      <div class="Techimages__grid8">
+      <img src="./Images/Vector (7).png" alt="">
+      <p>HTML5</p>
+      </div>
+
+      <div class="Techimages__grid9">
+      <img class="Techimages__pic" src="./Images/Vector (8).png" alt="">
+      <p>Git</p>
+      <div>
+
+     </div>
+     </section>
+
     
   <section class="Projects">
-    <h5 class="ProjectsH4">My Projects</h5>
-      <img src="./Images/MacBook Pro 16_ - 53 1.png" alt="" />
+    <h4 class="ProjectsH4">My Projects</h4>
+    <div class="Myprojects">
+      <img class="Myprojects__Img" src="./Images/MacBook Pro 16_ - 53 1.png" alt="" />
         <p class="Projectsp1">React<p>
-        <p class="Projectsp2">Client Project<p>
+        <p class="Projectsp2">Client Project 1<p>
         <p class="Projectsp3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, molestias? Quibusdam, quo eaque incidunt est
-          inventore assumenda deserunt? Saepe nobis ad ab neque amet minus veritatis sequi nisi doloribus culpa.
+          Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.
         </p>
-        <button class="button-primary">Code < / ></button>
-        <button class="button-secondary">Preview < / ></button>
-      </section>
+        <div class="Buttons">
+        <button class="button-primary">Code &lt;&#47;&gt;</button>
+        <button class="button-secondary">Preview &lt;&#47;&gt;</button>
+      </div>
+      
 
+      
+      <div class="Myprojects">
+        <img class="Myprojects__Img" src="./Images/MacBook Pro 16_ - 53 1.png" alt="" />
+          <p class="Projectsp1">React<p>
+          <p class="Projectsp2">Client Project 2<p>
+          <p class="Projectsp3">
+            Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.
+          </p>
+          <div class="Buttons">
+            <button class="button-primary">Code &lt;&#47;&gt;</button>
+            <button class="button-secondary">Preview &lt;&#47;&gt;</button>
+          </div>
+     
+      <div class="Myprojects">
+        <img class="Myprojects__Img" src="./Images/MacBook Pro 16_ - 53 1.png" alt="" />
+          <p class="Projectsp1">React<p>
+          <p class="Projectsp2">Client Project 3<p>
+          <p class="Projectsp3">
+            Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.
+          </p>
+          <div class="Buttons">
+            <button class="button-primary">Code &lt;&#47;&gt;</button>
+            <button class="button-secondary">Preview &lt;&#47;&gt;</button>
+          </div>
 
+        <div class="Myprojects__Web">
+          <img class="Myprojects__Img" src="./Images/MacBook Pro 16_ - 53 1.png" alt="" />
+            <p class="Projectsp1">React<p>
+            <p class="Projectsp2">Client Project 4<p>
+            <p class="Projectsp3">
+              Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.
+            </p>
+          <div class="Buttons">
+              <button class="button-primary">Code &lt;&#47;&gt;</button>
+              <button class="button-secondary">Preview &lt;&#47;&gt;</button>
+            </div>
+       
+        <div class="Myprojects__Web">
+          <img class="Myprojects__Img" src="./Images/MacBook Pro 16_ - 53 1.png" alt="" />
+            <p class="Projectsp1">React<p>
+            <p class="Projectsp2">Client Project 5<p>
+            <p class="Projectsp3">
+              Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.
+            </p>
+            <div class="Buttons">
+              <button class="button-primary">Code &lt;&#47;&gt;</button>
+              <button class="button-secondary">Preview &lt;&#47;&gt;</button>
+            </div>
+        
+
+        <div class="Myprojects__Web">
+          <img class="Myprojects__Img" src="./Images/MacBook Pro 16_ - 53 1.png" alt="" />
+            <p class="Projectsp1">React<p>
+            <p class="Projectsp2">Client Project 6<p>
+            <p class="Projectsp3">
+              Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.
+            </p>
+            <div class="Buttons">
+              <button class="button-primary">Code &lt;&#47;&gt;</button>
+              <button class="button-secondary">Preview &lt;&#47;&gt;</button>
+            </div>
+          </section>
+  
+    
 
     <footer class="Footer">
-<div class="FooterImg">
-<img src="./Images/cv.png" alt="">
-<img src="./Images/git.png" alt="">
-<img src="./Images/in.png" alt="">
-<div>
-<p>Airidassien64@gmail.com</p>
-</footer>
+    <div class="FooterImg">
+    <img src="./Images/cv.png" alt="">
+    <img src="./Images/git.png" alt="">
+    <img src="./Images/in.png" alt="">
+    </div>
+    <div>
+      <p class="Email">Airidassien64@gmail.com</p>
+    </div>
+    </footer>
 
- </main>     
+    </main>     
 
-</body>
-</html>
-
-
+    </body>
+    </html>

@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital@1&family=Inter:wght@400;500;600&display=swap');
 
-$text-heading: "Inter, Tight";
+$text-heading: "Inter", "Tight";
+$text-primary: "Inter", "Tight";
+$color-primary: cornflowerblue;
 
-$moblie-breakpoint:320px;
-
+$mobile-breakpoint: 320px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1024px;
+$large-desktop-breakpoint: 1440px;
+$extra-large-desktop-breakpoint: 2560px;
 
 
