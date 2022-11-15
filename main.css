@@ -8,6 +8,12 @@
   box-sizing: border-box;
 }
 
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -226,6 +232,7 @@ nav {
 
 .Footer {
   border: 2px solid black;
+  background-color: black;
 }
 
 .FooterImg {
@@ -234,12 +241,37 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   height: 8vh;
-  width: 90vw;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.imgCv {
+  background: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.imgGit {
+  background: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.imgIn {
+  background: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 10px;
 }
 
 .Email {
   text-align: center;
   margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -249,11 +281,11 @@ nav {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
-    position: absolute;
-    width: 483px;
-    height: 45px;
-    left: 1396px;
-    top: 25px;
+  }
+  .navButton {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
   }
   .StartingIntroP {
     font-size: 2rem;
@@ -303,7 +335,7 @@ nav {
   }
   .Techimages {
     display: flex;
-    grid-column-gap: 100px;
+    grid-column-gap: 50px;
   }
   .Projects {
     display: grid;
@@ -335,6 +367,9 @@ nav {
     text-align: center;
   }
   .Email {
-    padding-right: 160px;
+    text-align: center;
+  }
+  .FooterImg {
+    align-items: flex-end;
   }
 }/*# sourceMappingURL=main.css.map */
