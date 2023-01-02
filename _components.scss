@@ -7,7 +7,7 @@
   background-color: rgb(226, 214, 214);
   box-sizing: border-box;
 }
- 
+
 .Airidas {
   display: none;
 }
@@ -18,12 +18,11 @@ nav {
   display: none;
 }
 
-.startingImg{
-display: none;
+.startingImg {
+  display: none;
 }
 
 .StartingHeader {
-  
   margin-bottom: 40px;
 }
 
@@ -41,7 +40,6 @@ display: none;
 .aboutme {
   display: flex;
   flex-direction: column;
-  
   align-items: center;
   text-align: center;
   margin-bottom: 40px;
@@ -53,7 +51,7 @@ display: none;
   font-family: "Inter";
   margin: 40px;
   font-size: 32px;
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .aboutImg {
@@ -67,6 +65,8 @@ display: none;
   flex-direction: column;
   align-self: center;
   margin: 20px;
+  font-weight: 800;
+ 
 }
 
 .TechSkills {
@@ -74,13 +74,12 @@ display: none;
   flex-direction: column;
   align-items: center;
   text-align: center;
- 
 }
 
 .TechH3 {
   font-size: 32px;
   margin: 15px;
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .TechP {
@@ -146,10 +145,15 @@ display: none;
 }
 
 .Myprojects__Img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  padding-left: 30px;
+}
+.Myprojects__Img3 {
+  height: 250px;
+  width: 250px;
+  padding-left: 20px;
 }
 
 .Projectsp1 {
@@ -174,18 +178,18 @@ display: none;
   margin-bottom: 10px;
 }
 
-.Buttons  {
+.Buttons {
   display: flex;
-	flex-direction: row;
-	flex-wrap: wrap-reverse;
-	justify-content: space-evenly;
-	align-items: center;
-	align-content: stretch;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
   margin-bottom: 40px;
 }
 
 .button-primary {
-  background-color: #000000; 
+  background-color: #000000;
   border: none;
   color: white;
   padding: 12px 26px;
@@ -196,7 +200,7 @@ display: none;
 }
 
 .button-secondary {
-  background-color: #000000; 
+  background-color: #000000;
   border: none;
   color: white;
   padding: 12px 26px;
@@ -206,48 +210,43 @@ display: none;
   font-size: 14px;
 }
 
-.Myprojects__Web{
+.Myprojects__Web {
   display: none;
 }
-.Footer{
+.Footer {
   border: 2px solid black;
   background-color: black;
-  
 }
 
-.FooterImg{
+.FooterImg {
   display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
   height: 8vh;
   background-color: black;
-  border-radius:50px;
+  border-radius: 50px;
 }
 
-
-.imgCv{
+.imgCv {
   background: white;
   border-radius: 10px;
   margin-right: 10px;
-  padding:10px;
- 
+  padding: 10px;
 }
-.imgGit{
+.imgGit {
   background: white;
   border-radius: 10px;
   margin-right: 10px;
-  padding:10px;
-
+  padding: 10px;
 }
 
-.imgIn{
+.imgIn {
   background: white;
   border-radius: 10px;
   margin-right: 10px;
-  padding:10px;
+  padding: 10px;
 }
-
 
 .Email {
   text-align: center;
@@ -259,134 +258,135 @@ display: none;
 
 @media screen and (min-width: 1024px) {
   nav {
-display : flex;
-flex-direction : row;
-flex-wrap : wrap;
-justify-content : space-around;
-align-content : space-around;
-}
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
 
-.navButton{
-  width: 100px;
-  height: 40px;
-  font-weight: bold;
-}
+  .navButton {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+  }
 
-  
+  .StartingIntroP {
+    font-size: 2rem;
+  }
 
-.StartingIntroP{
-  font-size: 2rem;
-}
+  .StartingIntroH1 {
+    font-size: 7rem;
+  }
 
-.StartingIntroH1{
-  font-size: 7rem;
-}
+  .Myprojects__Web {
+    display: block;
+  }
 
-.Myprojects__Web {
-  display: block;
-} 
-
-.StartingHeader{
-  display: flex;
+  .StartingHeader {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: left;
-}
-
-.introText {
-  text-align: left;
-  align-items: center;
-}
-
-
-.startingImg{
-  display: flex;
-  margin-top: 150px;
-  margin-right: 50px;
-
-}
-
-
-
-.about_Pc {
-  display: flex;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: flex-start;
-	align-content: stretch;
-}
-.aboutImg{
-  margin-left: 20px;
-}
-.aboutPara{
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  margin-top: 100px;
-  
-}
-.aboutP{
-  font-size: 1.3rem;
-}
-
-.TechH3{
-  margin-top: 80px;
-}
-
-.Techimages {
-  display: flex;
-  grid-column-gap: 50px;
   }
 
-
-.Projects {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 25px;
-  grid-row-gap: 25px;
-  margin-bottom: 80px;
+  .introText {
+    text-align: left;
+    align-items: center;
   }
-  
-  .pro1 { grid-area: 1 / 1 / 2 / 2; }
-  .pro2 { grid-area: 1 / 2 / 2 / 3; }
-  .pro3 { grid-area: 1 / 3 / 2 / 4; }
-  .pro4 { grid-area: 2 / 1 / 3 / 2; }
-  .pro5 { grid-area: 2 / 2 / 3 / 3; }
-  .pro6 { grid-area: 2 / 3 / 3 / 4; }
 
-
-.myProjects {
-  text-align: center;
-}
-
-.Email{
- text-align: center;
-}
-
-
-// .FooterImg{
-//   align-items: flex-end;
-// }
-
-footer {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  padding-left: 100px;
-  padding-right: 100px;
-  div {
+  .startingImg {
     display: flex;
-    justify-content: flex-end;
-    .imgCv {
-      height: 41px;
-      width: 42px;
+    margin-top: 150px;
+    margin-right: 50px;
+  }
 
+  .about_Pc {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+  }
+  .aboutImg {
+    margin-left: 20px;
+  }
+  .aboutPara {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 100px;
+  }
+  .aboutP {
+    font-size: 2rem;
+  }
+
+  .TechH3 {
+    margin-top: 80px;
+  }
+
+  .Techimages {
+    display: flex;
+    grid-column-gap: 50px;
+  }
+
+  .Projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    margin-bottom: 80px;
+  }
+
+  .pro1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .pro2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .pro3 {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+  .pro4 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .pro5 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .pro6 {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+
+  .myProjects {
+    text-align: center;
+  }
+  .Myprojects__Img3 {
+    height: 250px;
+    width: 250px;
+  }
+
+  .Email {
+    text-align: center;
+  }
+
+  // .FooterImg{
+  //   align-items: flex-end;
+  // }
+
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    div {
+      display: flex;
+      justify-content: flex-end;
+      .imgCv {
+        height: 41px;
+        width: 42px;
+      }
     }
   }
 }
-
-
-}
-
-
