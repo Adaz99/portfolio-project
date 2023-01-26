@@ -281,14 +281,14 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  nav {
+  .nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
   }
-  .navButton {
+  .nav__button {
     width: 100px;
     height: 40px;
     font-weight: bold;
@@ -334,10 +334,13 @@ nav {
     margin-top: 100px;
   }
   .aboutP {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .TechH3 {
     margin-top: 80px;
+  }
+  .TechP {
+    font-size: 1.5rem;
   }
   .Techimages {
     display: flex;

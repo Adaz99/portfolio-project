@@ -213,6 +213,7 @@ nav {
 .Myprojects__Web {
   display: none;
 }
+
 .Footer {
   border: 2px solid black;
   background-color: black;
@@ -234,6 +235,7 @@ nav {
   margin-right: 10px;
   padding: 10px;
 }
+
 .imgGit {
   background: white;
   border-radius: 10px;
@@ -257,19 +259,28 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  nav {
+  //BLOCK
+  .nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
-  }
 
-  .navButton {
-    width: 100px;
-    height: 40px;
-    font-weight: bold;
-  }
+    //  & -> REFERS TO CLASS AT THE TOP -> nav
+    // nav__button
+    &__button {
+      width: 100px;
+      height: 40px;
+      font-weight: bold;
+    }
+
+
+      }
+    
+  
+
+
 
   .StartingIntroP {
     font-size: 2rem;
@@ -318,11 +329,15 @@ nav {
     margin-top: 100px;
   }
   .aboutP {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .TechH3 {
     margin-top: 80px;
+  }
+
+  .TechP {
+    font-size: 1.5rem;
   }
 
   .Techimages {
